@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  background: #FFF5E3;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2{
+  font-size: 1.75em;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*LAYOUT HEADER-------*/
+header{
+  background: #EDF4F1;
+  border-bottom: 1px solid #ABABAB;
+}
+
+header > section{
+  width: 92%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header h1{
+  width: 50%;
+  float: left;
+}
+
+header h2{
+  color: #B7B8B4;
+  float: right;
+  font-weight: normal;
+  margin-top: 77px;
+  text-align:  right;
+  width: 32.857143%;
+}
+
+/*LAYOUT CONTENT-------*/
+#content{
+  width: 92%;
+  margin: 40px auto;
+}
+
+#content h2{
+  font-weight: normal;
+  font-size: 1.625em;
+  margin-bottom: 30px;
+}
+
+#content h3{
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/*LAYOUT CONTENT HIGHLIGHTS--------*/
+#highlights{
+  color: #7A5037;
+  font-size: 1.25em;
+  width: 60%;
+  float: left;
+}
+
+#highlights ul{
+  list-style: none;
+}
+
+#highlights li{
+  margin-bottom: 5%;
+}
+
+#highlights li figure{
+  float: left;
+  margin-right: 2%;
+}
+
+#highlights li.light-brown figure{
+  float: right;
+  margin-left: 2%;
+}
+
+/*LAYOUT CONTENT CONTACT-----------*/
+#contact{
+  background: #F3EDE1;
+  width: 35%;
+  float: right;
+}
+
+#contact h4{
+  font-size: 1.75em;
+  font-weight: normal;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BCBDBE;
+  margin: 5%;
+}
+
+#contact h5{
+  font-size: .9375em;
+  line-height: 1.375em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 5% 5% 5%;
+}
+
+#contact form{
+  margin: 0 5% 5% 5%;
+}
+
+#contact label{
+  color: #58595B;
+  font-size: 1.125em;
+  display: block;
+  margin-bottom: 3px;
+}
+
+#contact input,
+#contact textarea{
+  height: 27px;
+  color: #7a5037;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#contact textarea{
+  height: 125px;
+}
+
+/*LAYOUT FOOTER-----*/
+footer{
+  width: 92%;
+  margin: 40px auto;
+  border-top: 1px solid #808185;
+  color: #808185;
+  font-size: .8125em;
+}
+
+footer article{
+  width: 50%;
+  margin: 10px 0%;
+}
+
+footer article{
+  float: left;
+}
+
+footer article:nth-child(2n+2){
+  float: right;
+  text-align: right;
+}
+
+/*COLORS------*/
+.light-orange{
+ color: #EF925A; 
+}
+
+.light-green{
+ color: #ADC68E; 
+}
+
+.light-blue{
+ color: #9CD4E8; 
+}
+
+.light-brown{
+  color: #AA8A73;
+}
+
+.orange{
+  color: #F15E24;
+}
+
+.blue{
+  color: #4FA2C7;
+}

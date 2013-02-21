@@ -1,0 +1,58 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  header h1,
+  header h2{
+    width: 100%;
+    float: none;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  header h2{
+    margin-top: 10px;
+  }
+
+  header img{
+    width: 30%;
+  }
+
+  #content h2{
+    font-size: 1.4375em;
+    text-align: center;
+  }
+
+  #content h3{
+    font-size: 1.5625em;
+    text-align: center;
+  }
+
+  #highlights, #contact{
+    float: none;
+    width: 100%;
+  }
+
+  #highlights{
+    font-size: .9375em;
+  }
+
+  #highlights li figure{
+    width: 10%;
+  }
+
+  #contact h4 {
+    padding-top: 15px;
+    font-size: 1.25em;
+  }
+
+  #contact h5,
+  #contact label {
+    font-size: .8125em;
+  }
+
+  footer article{
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
